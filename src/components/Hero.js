@@ -16,25 +16,52 @@ const Hero = () => {
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              <h1>say</h1>
-              <h1>something</h1>
-              <h1>clever</h1>
+              <h1>web developer</h1>
+              <h1>designer</h1>
+              <h1>musicain</h1>
             </div>
           </Fade>
           <Fade bottom>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text.
+              I am full-stack web developer with a focus on React. I believe
+              that websites should be simple, elegant, and functional.
             </p>
           </Fade>
           <Fade bottom>
-            <a
-              href={`mailto: "abharris@outlook.com"
-              `}
-              className="primary-btn"
-            >
-              CONTACT ME
-            </a>
+            <div className="socialContainer">
+              <a
+                href="https://github.com/loophalen"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primary-btn"
+              >
+                github
+              </a>
+              <a
+                href="https://www.linkedin.com/in/austin-harris-/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primary-btn"
+              >
+                linkedin
+              </a>
+              <a
+                href="https://twitter.com/codeaustincode"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primary-btn"
+              >
+                twitter
+              </a>
+              <a
+                href="https://grandvapids.bandcamp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primary-btn"
+              >
+                bandcamp
+              </a>
+            </div>
           </Fade>
         </div>
       </div>
