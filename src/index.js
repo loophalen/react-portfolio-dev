@@ -2,13 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 
-import Hero from "./components/Hero";
 import Layout from "./components/layout";
+
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
   <React.StrictMode>
     <Layout>
       <Hero />
+      <Projects />
+      <Footer />
     </Layout>
   </React.StrictMode>,
   document.getElementById("root")

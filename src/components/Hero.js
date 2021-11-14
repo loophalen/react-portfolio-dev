@@ -18,12 +18,12 @@ const Hero = () => {
             <div className="heading-wrapper">
               <h1>web developer</h1>
               <h1>designer</h1>
-              <h1>musicain</h1>
+              <h1>musician</h1>
             </div>
           </Fade>
           <Fade bottom>
             <p>
-              I am full-stack web developer with a focus on React. I believe
+              I am a full-stack web developer with a focus on React. I believe
               that websites should be simple, elegant, and functional.
             </p>
           </Fade>
