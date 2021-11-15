@@ -8,6 +8,9 @@
   h1 {
     font-size: 2.5rem;
     line-height: 20px;
+    @include media(">=phone", "<lgphone") {
+      font-size: 2.5rem;
+    }
   }
   h2 {
     font-size: 1.5rem;
@@ -25,6 +28,16 @@
   .email-link {
     font-size: 1.5rem;
     color: black;
+    @include media(">=phone", "<lgphone") {
+      font-size: 1.5rem;
+      padding-bottom: 10px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 14px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 1.2rem;
+    }
   }
   .social-icons {
     margin-top: 20px;
@@ -35,6 +48,15 @@
   }
   span {
     margin-top: 10px;
+    @include media(">=phone", "<lgphone") {
+      font-size: 0.95rem;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 0.95rem;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 0.95rem;
+    }
   }
   icon {
     color: #ffc600;

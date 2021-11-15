@@ -61,3 +61,33 @@ body {
     transform: scale(1.1);
   }
 }
+@media screen and (max-width: 35.5em) {
+  .primary-btn {
+    margin: 5px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  @media screen and (min-width: 35.5em) {
+    .primary-btn {
+      margin: 5px;
+      padding: 5px;
+      background-color: black;
+      color: white;
+      border: 0px;
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -8,6 +8,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  @include media(">=phone", "<lgphone") {
+    width: 350px;
+    height: 250px;
+    overflow: hidden !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
   .content {
     font-family: "Open Sans";
