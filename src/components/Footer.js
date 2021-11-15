@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="container">
         <div className="footer-container">
           <h1>contact</h1>
-          <h2>abharris@outlook.com</h2>
+          <a className="email-link" href="mailto:abharris@outlook.com">
+            abharris@outlook.com
+          </a>
           <div className="socialContainer">
             <a
               href="https://github.com/loophalen"
@@ -42,7 +44,7 @@ const Footer = () => {
             </a>
           </div>
           <span>
-            30305 © 2021 Made With <icon>❤</icon> by Austin
+            30305 © 2021 Made With <icon className="icon">☕</icon> by Austin
           </span>
         </div>
       </div>
