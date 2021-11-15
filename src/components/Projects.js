@@ -13,15 +13,17 @@ export default function Projects() {
           </Fade>
 
           <div className="grid">
-            {projects.map((project, index) => (
-              <Card
-                key={index}
-                heading={project.title}
-                paragraph={project.para}
-                imgUrl={project.imageSrc}
-                projectLink={project.url}
-              ></Card>
-            ))}
+            <Fade bottom cascade>
+              {projects.map((project, index) => (
+                <Card
+                  key={index}
+                  heading={project.title}
+                  paragraph={project.para}
+                  imgUrl={project.imageSrc}
+                  projectLink={project.url}
+                ></Card>
+              ))}
+            </Fade>
           </div>
         </div>
       </div>

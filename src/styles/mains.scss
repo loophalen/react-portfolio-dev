@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import "./include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
-// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 
 // Card
 @import "./card.scss";
@@ -15,11 +14,10 @@
 
 * {
   font-family: "Montserrat";
-  //   font-family: "Inter", sans-serif;
 }
 
 body {
-  background: linear-gradient(#fff, #fffdf7, #ffe9ec) !important;
+  //   background: linear-gradient(#fff, #fffdf7, #ffe9ec) !important;
   margin: 0;
   padding: 0;
   overflow-y: scroll;
